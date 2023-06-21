@@ -190,7 +190,7 @@ addDataButton.addEventListener("click", function () {
   var newLi = document.createElement("li");
   newLi.textContent = textArea.value;
   ulist.appendChild(newLi);
-  textArea.value = "";
+  //textArea.value = "";
 });
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
