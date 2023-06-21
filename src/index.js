@@ -18,5 +18,5 @@ addDataButton.addEventListener("click", () => {
   let newLi = document.createElement("li");
   newLi.textContent = textArea.value;
   ulist.appendChild(newLi);
-  textArea.value = "";
+  //textArea.value = "";
 });
